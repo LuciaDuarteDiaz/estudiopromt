@@ -1,23 +1,29 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import QuienesSomos from "./components/pages/QuienesSomos";
+import Artisticos from "./components/pages/Artisticos";
+import CursosTalleres from "./components/pages/Cursos&Talleres";
+import QueQueremos from "./components/pages/QueQueremos";
+import Social from "./components/pages/Social";
+import Recomendaciones from "./components/pages/Recomendaciones";
+import Repos from "./components/pages/Repos";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Esta sera la pagina web de mi amigo</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Los geht's
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/artisticos" element={<Artisticos />} />
+        <Route path="/que-queremos" element={<QueQueremos />} />
+        <Route path="/recomendaciones" element={<Recomendaciones />} />
+        <Route path="/repos" element={<Repos />} />
+        <Route path="/cursos-talleres" element={<CursosTalleres />} />
+        <Route path="/social" element={<Social />} />
+        <Route path="/" element={<QuienesSomos />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
