@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Agrandir";
+  src: url("../src/fuentes/Agrandir-Regular.otf") format("otf")
+    url("../src/fuentes/Agrandir-WideLight.otf") format("otf");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../src/fuentes/Raleway-Black.ttf") format("ttf"),
+    url("../src/fuentes/Raleway-ExtraBold.ttf") format("ttf");
+}
+/* Estilo para el contenedor de la navbar */
+.nav-container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  padding: 20px; /* Ajustar el espaciado vertical según sea necesario */
+  background-color: #f0f0f0; /* Agrega un fondo para visualizar el contenedor */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilo para la lista horizontal */
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Espaciado entre elementos de la lista */
+.nav-list li {
+  margin-right: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Aplicar fuente personalizada */
+.nav-list a {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.component-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  padding: 30px; /* Ajusta el espaciado según sea necesario */
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.component-content {
+  background-color: #f9f9f9; /* Color de fondo del bloque */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado dentro del bloque */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para el efecto de elevación */
 }
