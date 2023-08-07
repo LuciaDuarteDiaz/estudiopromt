@@ -11,7 +11,7 @@ import Repos from "./components/pages/Repos";
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
         <Route path="/artisticos" element={<Artisticos />} />
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/social" element={<Social />} />
         <Route path="/" element={<QuienesSomos />} />
       </Routes>
-    </Router>
+    </>
   );
 };
 
