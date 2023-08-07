@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.91fa6455.css",
-    "main.js": "/static/js/main.f36ac03e.js",
-    "static/js/787.aa53358f.chunk.js": "/static/js/787.aa53358f.chunk.js",
-    "static/media/Raleway-Black.ttf": "/static/media/Raleway-Black.f8326789442b4f02f449.ttf",
-    "static/media/Raleway-ExtraBold.ttf": "/static/media/Raleway-ExtraBold.ce7b4cc718503c2ba39f.ttf",
-    "static/media/Agrandir-WideLight.otf": "/static/media/Agrandir-WideLight.efd6d44de261ac30a7dc.otf",
-    "static/media/Agrandir-Regular.otf": "/static/media/Agrandir-Regular.ee9ba17d94a4b7dee02f.otf",
-    "index.html": "/index.html",
-    "main.91fa6455.css.map": "/static/css/main.91fa6455.css.map",
-    "main.f36ac03e.js.map": "/static/js/main.f36ac03e.js.map",
-    "787.aa53358f.chunk.js.map": "/static/js/787.aa53358f.chunk.js.map"
+    "main.css": "/estudiopromt/static/css/main.8d56ad62.css",
+    "main.js": "/estudiopromt/static/js/main.ad59797d.js",
+    "static/js/787.aa53358f.chunk.js": "/estudiopromt/static/js/787.aa53358f.chunk.js",
+    "static/media/Raleway-Black.ttf": "/estudiopromt/static/media/Raleway-Black.f8326789442b4f02f449.ttf",
+    "static/media/Raleway-ExtraBold.ttf": "/estudiopromt/static/media/Raleway-ExtraBold.ce7b4cc718503c2ba39f.ttf",
+    "static/media/Agrandir-WideLight.otf": "/estudiopromt/static/media/Agrandir-WideLight.efd6d44de261ac30a7dc.otf",
+    "static/media/Agrandir-Regular.otf": "/estudiopromt/static/media/Agrandir-Regular.ee9ba17d94a4b7dee02f.otf",
+    "index.html": "/estudiopromt/index.html",
+    "main.8d56ad62.css.map": "/estudiopromt/static/css/main.8d56ad62.css.map",
+    "main.ad59797d.js.map": "/estudiopromt/static/js/main.ad59797d.js.map",
+    "787.aa53358f.chunk.js.map": "/estudiopromt/static/js/787.aa53358f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91fa6455.css",
-    "static/js/main.f36ac03e.js"
+    "static/css/main.8d56ad62.css",
+    "static/js/main.ad59797d.js"
   ]
 }
