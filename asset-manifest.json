@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/estudiopromt/static/css/main.8d56ad62.css",
-    "main.js": "/estudiopromt/static/js/main.7e7d8bfa.js",
+    "main.css": "/estudiopromt/static/css/main.37d27cde.css",
+    "main.js": "/estudiopromt/static/js/main.98f18cd2.js",
     "static/js/787.aa53358f.chunk.js": "/estudiopromt/static/js/787.aa53358f.chunk.js",
     "static/media/Raleway-Black.ttf": "/estudiopromt/static/media/Raleway-Black.f8326789442b4f02f449.ttf",
-    "static/media/Raleway-ExtraBold.ttf": "/estudiopromt/static/media/Raleway-ExtraBold.ce7b4cc718503c2ba39f.ttf",
-    "static/media/Agrandir-WideLight.otf": "/estudiopromt/static/media/Agrandir-WideLight.efd6d44de261ac30a7dc.otf",
+    "static/media/Raleway-SemiBold.ttf": "/estudiopromt/static/media/Raleway-SemiBold.92cc605b66b78b8530f2.ttf",
+    "static/media/Raleway-ExtraLight.ttf": "/estudiopromt/static/media/Raleway-ExtraLight.79046b326aac3deaf1ea.ttf",
     "static/media/Agrandir-Regular.otf": "/estudiopromt/static/media/Agrandir-Regular.ee9ba17d94a4b7dee02f.otf",
+    "static/media/logovertical.jpg": "/estudiopromt/static/media/logovertical.c9c663ec77a36cecaf2a.jpg",
+    "static/media/isologotipoC.png": "/estudiopromt/static/media/isologotipoC.d39d7de2e4872955ebec.png",
+    "static/media/isologotipoN.png": "/estudiopromt/static/media/isologotipoN.da1d5af0fee0e152dfde.png",
     "index.html": "/estudiopromt/index.html",
-    "main.8d56ad62.css.map": "/estudiopromt/static/css/main.8d56ad62.css.map",
-    "main.7e7d8bfa.js.map": "/estudiopromt/static/js/main.7e7d8bfa.js.map",
+    "main.37d27cde.css.map": "/estudiopromt/static/css/main.37d27cde.css.map",
+    "main.98f18cd2.js.map": "/estudiopromt/static/js/main.98f18cd2.js.map",
     "787.aa53358f.chunk.js.map": "/estudiopromt/static/js/787.aa53358f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d56ad62.css",
-    "static/js/main.7e7d8bfa.js"
+    "static/css/main.37d27cde.css",
+    "static/js/main.98f18cd2.js"
   ]
 }
