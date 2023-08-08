@@ -1,19 +1,25 @@
 @font-face {
   font-family: "Agrandir";
-  src: url("../src/fuentes/Agrandir-Regular.otf") format("otf")
-    url("../src/fuentes/Agrandir-WideLight.otf") format("otf");
+  src: url("../src/fuentes/Agrandir-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "Raleway ExtraLight";
+  src: url("../src/fuentes/Raleway-ExtraLight.ttf") format("otf");
 }
 @font-face {
   font-family: "Raleway";
-  src: url("../src/fuentes/Raleway-Black.ttf") format("ttf"),
-    url("../src/fuentes/Raleway-ExtraBold.ttf") format("ttf");
+  src: url("../src/fuentes/Raleway-Black.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Raleway Semibold";
+  src: url("../src/fuentes/Raleway-SemiBold.ttf") format("ttf");
 }
 /* Estilo para el contenedor de la navbar */
 .nav-container {
   display: flex;
   justify-content: center; /* Centrar horizontalmente */
-  padding: 20px; /* Ajustar el espaciado vertical según sea necesario */
-  background-color: #f0f0f0; /* Agrega un fondo para visualizar el contenedor */
+  padding: 25px; /* Ajustar el espaciado vertical según sea necesario */
+  background-color: #ffffff; /* Agrega un fondo para visualizar el contenedor */
 }
 
 /* Estilo para la lista horizontal */
@@ -22,20 +28,31 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  align-items: center;
 }
 
 /* Espaciado entre elementos de la lista */
 .nav-list li {
-  margin-right: 30px;
+  margin-right: 25px;
 }
 
 /* Aplicar fuente personalizada */
 .nav-list a {
-  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  font-family: "Raleway ExtraLight", sans-serif;
+  font-size: 20px;
   text-decoration: none;
   color: black;
 }
+
+.nav-list li a img {
+  max-width: 35px; /* Ajusta el ancho máximo de la imagen */
+  height: auto;
+}
+
 .component-container {
+  font-family: "Raleway ExtraLight", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,8 +60,9 @@
   padding: 30px; /* Ajusta el espaciado según sea necesario */
 }
 .component-content {
-  background-color: #f9f9f9; /* Color de fondo del bloque */
+  font-family: "Raleway ExtraLight", sans-serif;
+  background-color: #ffffff; /* Color de fondo del bloque */
   border-radius: 10px; /* Bordes redondeados */
   padding: 20px; /* Espaciado dentro del bloque */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para el efecto de elevación */
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  Sombra para el efecto de elevación */
 }
