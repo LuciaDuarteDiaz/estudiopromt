@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import QuienesSomos from "./components/pages/QuienesSomos";
 import Artisticos from "./components/pages/Artisticos";
@@ -8,6 +8,7 @@ import QueQueremos from "./components/pages/QueQueremos";
 import Social from "./components/pages/Social";
 import Recomendaciones from "./components/pages/Recomendaciones";
 import Repos from "./components/pages/Repos";
+import Inicio from "./components/pages/Inicio";
 
 const App = () => {
   return (
@@ -17,10 +18,11 @@ const App = () => {
         <Route path="/artisticos" element={<Artisticos />} />
         <Route path="/que-queremos" element={<QueQueremos />} />
         <Route path="/recomendaciones" element={<Recomendaciones />} />
-        <Route path="/repos" element={<Repos />} />
+        <Route path="/repositorios" element={<Repos />} />
         <Route path="/cursos-talleres" element={<CursosTalleres />} />
         <Route path="/social" element={<Social />} />
-        <Route path="/" element={<QuienesSomos />} />
+        <Route path="/quienes-somos" element={<QuienesSomos />} />
+        <Route path="/" element={<Inicio />} />
       </Routes>
     </>
   );
