@@ -13,20 +13,22 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <div className="container">
       <Navbar />
-      <Routes>
-        <Route path="/artisticos" element={<Artisticos />} />
-        <Route path="/que-queremos" element={<QueQueremos />} />
-        <Route path="/recomendaciones" element={<Recomendaciones />} />
-        <Route path="/repositorios" element={<Repos />} />
-        <Route path="/cursos-talleres" element={<CursosTalleres />} />
-        <Route path="/social" element={<Social />} />
-        <Route path="/quienes-somos" element={<QuienesSomos />} />
-        <Route path="/" element={<Inicio />} />
-      </Routes>
+      <div className="router-containers">
+        <Routes>
+          <Route path="/artisticos" element={<Artisticos />} />
+          <Route path="/que-queremos" element={<QueQueremos />} />
+          <Route path="/recomendaciones" element={<Recomendaciones />} />
+          <Route path="/repositorios" element={<Repos />} />
+          <Route path="/cursos-talleres" element={<CursosTalleres />} />
+          <Route path="/social" element={<Social />} />
+          <Route path="/quienes-somos" element={<QuienesSomos />} />
+          <Route path="/" element={<Inicio />} />
+        </Routes>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

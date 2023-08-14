@@ -3,7 +3,7 @@ import "../App.css";
 
 const Footer = () => {
   return (
-    <footer class="footer">
+    <footer className="footer">
       <p>singularidad@gmail.com</p>
       <p>+36 66 21 38 427</p>
     </footer>

@@ -11,17 +11,18 @@ const Inicio = () => {
           src={images["logo-vertical"]}
           alt="logo vertical"
         ></img>
+        <p
+          style={{
+            color: "rgb(27, 161, 220)",
+            textAlign: "left",
+            verticalAlign: "bottom",
+            fontSize: "20pt",
+          }}
+        >
+          "Descubriendo <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la pregunta"
+        </p>
       </div>
-      <p
-        style={{
-          color: "rgb(27, 161, 220)",
-          textAlign: "left",
-          verticalAlign: "bottom",
-          fontSize: "20pt",
-        }}
-      >
-        "Descubriendo <br /> la pregunta"
-      </p>
     </div>
   );
 };

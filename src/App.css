@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center; /* Centrar horizontalmente */
   padding: 25px; /* Ajustar el espaciado vertical según sea necesario */
-  background-color: #ffffff; /* Agrega un fondo para visualizar el contenedor */
+  /*background-color: #ffffff;  Agrega un fondo para visualizar el contenedor */
 }
 
 /* Estilo para la lista horizontal */
@@ -59,20 +59,23 @@
   padding: 30px; /* Ajusta el espaciado según sea necesario */
 }
 .component-content {
-  background-color: #ffffff; /* Color de fondo del bloque */
+  font-family: "Raleway ExtraLight", sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  /*background-color: #ffffff; /* Color de fondo del bloque */
   border-radius: 10px; /* Bordes redondeados */
-  padding: 20px; /* Espaciado dentro del bloque */
-  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  Sombra para el efecto de elevación */
+  padding-inline: 25%; /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
 }
 .content-header {
   font-family: "Raleway ExtraLight", sans-serif;
   color: rgb(27, 161, 220);
-  font-size: 32pt;
+  font-size: 24pt;
 }
 .content-text {
   font-family: "Raleway ExtraLight", sans-serif;
-  font-size: 17pt;
-  line-height: 20pt;
+  font-size: 14pt;
+  line-height: 18pt;
 }
 .content-text text {
   font-family: "Raleway Semibold";
@@ -80,25 +83,66 @@
 .content-text a {
   color: rgb(27, 161, 220);
 }
+
 .footer {
   display: flex;
   font-family: "Raleway ExtraLight", sans-serif;
   background-color: #d6d6d6;
   color: rgb(0, 0, 0);
-  justify-content: flex-end;
-  padding: 8px;
-  position: absolute;
-  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
   width: 100%;
+  max-width: 100%;
 }
 .footer p {
   padding-right: 10px;
-  /* Agrega espacio vertical utilizando un pseudo-elemento */
   position: relative;
 }
 
 .footer p::after {
   content: "";
   display: block;
-  height: 10px; /* Ajusta el espacio vertical aquí */
+  height: 10px;
 }
+
+/* Estilo para la lista horizontal en dispositivos móviles */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-list li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+/* Estilo para el pie de página en dispositivos móviles */
+@media (max-width: 768px) {
+  .footer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .footer p {
+    padding-right: 0;
+    padding-bottom: 5px;
+  }
+}
+/* Clase para el contenedor principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establece el alto mínimo del contenedor principal */
+}
+
+/*Clase para el contenido del router
+/*.router-content {
+  flex: 1; /* Permite que el contenido del router ocupe el espacio restante */
+/* padding-bottom: 60px; /* Asegura que haya suficiente espacio para el footer */
+/*display: flex;
+ /* flex-direction: column; /* Asegurar que los elementos se apilen verticalmente */
+/* justify-content: stretch;  Forzar que los elementos se estiren verticalmente */
+/* } */
