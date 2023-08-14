@@ -89,14 +89,14 @@
   font-family: "Raleway ExtraLight", sans-serif;
   background-color: #d6d6d6;
   color: rgb(0, 0, 0);
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   margin-top: auto;
   width: 100%;
   max-width: 100%;
 }
 .footer p {
-  padding-right: 10px;
+  padding-right: 15px;
   position: relative;
 }
 
