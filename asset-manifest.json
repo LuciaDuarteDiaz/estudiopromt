@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/estudiopromt/static/css/main.37d27cde.css",
-    "main.js": "/estudiopromt/static/js/main.98f18cd2.js",
+    "main.css": "/estudiopromt/static/css/main.cb9896ae.css",
+    "main.js": "/estudiopromt/static/js/main.333567f5.js",
     "static/js/787.aa53358f.chunk.js": "/estudiopromt/static/js/787.aa53358f.chunk.js",
     "static/media/Raleway-Black.ttf": "/estudiopromt/static/media/Raleway-Black.f8326789442b4f02f449.ttf",
     "static/media/Raleway-SemiBold.ttf": "/estudiopromt/static/media/Raleway-SemiBold.92cc605b66b78b8530f2.ttf",
     "static/media/Raleway-ExtraLight.ttf": "/estudiopromt/static/media/Raleway-ExtraLight.79046b326aac3deaf1ea.ttf",
+    "static/media/gartner.png": "/estudiopromt/static/media/gartner.5e49dbe91c51c4beee17.png",
     "static/media/Agrandir-Regular.otf": "/estudiopromt/static/media/Agrandir-Regular.ee9ba17d94a4b7dee02f.otf",
     "static/media/logovertical.jpg": "/estudiopromt/static/media/logovertical.c9c663ec77a36cecaf2a.jpg",
     "static/media/isologotipoC.png": "/estudiopromt/static/media/isologotipoC.d39d7de2e4872955ebec.png",
     "static/media/isologotipoN.png": "/estudiopromt/static/media/isologotipoN.da1d5af0fee0e152dfde.png",
     "index.html": "/estudiopromt/index.html",
-    "main.37d27cde.css.map": "/estudiopromt/static/css/main.37d27cde.css.map",
-    "main.98f18cd2.js.map": "/estudiopromt/static/js/main.98f18cd2.js.map",
+    "main.cb9896ae.css.map": "/estudiopromt/static/css/main.cb9896ae.css.map",
+    "main.333567f5.js.map": "/estudiopromt/static/js/main.333567f5.js.map",
     "787.aa53358f.chunk.js.map": "/estudiopromt/static/js/787.aa53358f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37d27cde.css",
-    "static/js/main.98f18cd2.js"
+    "static/css/main.cb9896ae.css",
+    "static/js/main.333567f5.js"
   ]
 }
