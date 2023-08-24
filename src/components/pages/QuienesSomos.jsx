@@ -3,8 +3,8 @@ import "../../App.css";
 
 const QuienesSomos = () => {
   return (
-    <div className="component-container">
-      <div className="component-content">
+    <div className="component-container ">
+      <div className="component-content animate__animated animate__fadeInLeft">
         <p className="content-header">Quiénes Somos</p>
         <p className="content-text">
           Somos @estudioprompt, un equipo de profesionales apasionados por

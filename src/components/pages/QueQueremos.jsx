@@ -4,8 +4,8 @@ import images from "../../assets/img/images";
 
 const QueQueremos = () => {
   return (
-    <div className="component-container">
-      <div className="component-content">
+    <div className=" component-container">
+      <div className="component-content animate__animated animate__fadeInLeft">
         <p className="content-header">Qué queremos</p>
         <p className="content-text">
           El Ciclo de Gartner, también conocido como el "Hype Cycle" (Ciclo de

@@ -4,7 +4,7 @@ import "../../App.css";
 const Repos = () => {
   return (
     <div className="component-container">
-      <div className="component-content">
+      <div className="component-content animate__animated animate__fadeInLeft">
         <p className="content-header">Repositorio de IAs</p>
         <p className="content-text">
           <text>Generativas de Texto:</text>

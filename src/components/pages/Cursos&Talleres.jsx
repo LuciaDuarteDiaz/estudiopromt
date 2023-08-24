@@ -4,7 +4,7 @@ import "../../App.css";
 const CursosTalleres = () => {
   return (
     <div className="component-container">
-      <div className="component-content">
+      <div className="component-content animate__animated animate__fadeInLeft">
         <p className="content-header">Cursos y Talleres</p>
         <p className="content-text">
           La irrupción de la Inteligencia Artificial tiene como uno de sus

@@ -4,7 +4,7 @@ import "../../App.css";
 const Recomendaciones = () => {
   return (
     <div className="component-container">
-      <div className="component-content">
+      <div className="component-content animate__animated animate__fadeInLeft">
         <p className="content-header">Recomendaciones</p>
         <p className="content-text">
           <a href="https://www.instagram.com/troy3xyz/?hl=es">troy3xyz </a>

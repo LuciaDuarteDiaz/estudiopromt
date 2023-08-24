@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import images from "../assets/img/images";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [animation, setAnimation] = useState("");
   return (
-    <nav className="nav-container">
+    <nav className="nav-container animate__animated animate__fadeInLeft">
       <ul className="nav-list">
         <li>
           <Link to="/">

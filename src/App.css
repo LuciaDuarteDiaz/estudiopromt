@@ -30,6 +30,9 @@
   margin: 0;
   align-items: center;
 }
+.animate__animated .animate__fadeInLeft {
+  --animate-duration: 2.5s;
+}
 
 /* Espaciado entre elementos de la lista */
 .nav-list li {

@@ -4,7 +4,7 @@ import "../../App.css";
 const Social = () => {
   return (
     <div className="component-container">
-      <div className="component-content">
+      <div className="component-content animate__animated animate__fadeInLeft">
         <p className="content-header">Proyectos social de Divulgación</p>
         <p className="content-text">
           Estamos emocionados por esta sección, que actualmente se encuentra en
