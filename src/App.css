@@ -76,6 +76,7 @@
   font-family: "Raleway ExtraLight", sans-serif;
   font-size: 12pt;
   line-height: 16pt;
+  min-height: fit-content;
 }
 .content-text text {
   font-family: "Raleway Semibold";
