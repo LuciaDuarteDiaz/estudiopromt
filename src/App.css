@@ -41,7 +41,7 @@
   display: flex;
   align-items: center;
   font-family: "Raleway ExtraLight", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   color: black;
 }
@@ -70,12 +70,12 @@
 .content-header {
   font-family: "Raleway ExtraLight", sans-serif;
   color: rgb(27, 161, 220);
-  font-size: 24pt;
+  font-size: 22pt;
 }
 .content-text {
   font-family: "Raleway ExtraLight", sans-serif;
-  font-size: 14pt;
-  line-height: 18pt;
+  font-size: 12pt;
+  line-height: 16pt;
 }
 .content-text text {
   font-family: "Raleway Semibold";
