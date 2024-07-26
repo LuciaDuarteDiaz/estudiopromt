@@ -1,11 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.129af211.css",
-    "main.js": "/static/js/main.03257038.js",
+    "main.js": "/static/js/main.aa37e64f.js",
     "static/js/787.aa53358f.chunk.js": "/static/js/787.aa53358f.chunk.js",
     "static/media/3.pdf": "/static/media/3.d1f26de9e5d23b9287d3.pdf",
     "static/media/2.pdf": "/static/media/2.00822f3b7450d84cec1d.pdf",
     "static/media/1.pdf": "/static/media/1.b137700a96c24b225266.pdf",
+    "static/media/4.pdf": "/static/media/4.2eafb733cf49fd7a73bd.pdf",
+    "static/media/Gpts-papers.png": "/static/media/Gpts-papers.52a862fa0aeb261f045d.png",
+    "static/media/Gpts-customizeText.png": "/static/media/Gpts-customizeText.3b0e4159964a0af939d1.png",
+    "static/media/Gpts-polidrama.png": "/static/media/Gpts-polidrama.34798e8e7a79c5aa0848.png",
+    "static/media/Presentacion-SF.png": "/static/media/Presentacion-SF.14eea267375227f8663f.png",
     "static/media/Raleway-Black.ttf": "/static/media/Raleway-Black.f8326789442b4f02f449.ttf",
     "static/media/Raleway-SemiBold.ttf": "/static/media/Raleway-SemiBold.92cc605b66b78b8530f2.ttf",
     "static/media/Raleway-ExtraLight.ttf": "/static/media/Raleway-ExtraLight.79046b326aac3deaf1ea.ttf",
@@ -16,11 +21,11 @@
     "static/media/isologotipoN.png": "/static/media/isologotipoN.da1d5af0fee0e152dfde.png",
     "index.html": "/index.html",
     "main.129af211.css.map": "/static/css/main.129af211.css.map",
-    "main.03257038.js.map": "/static/js/main.03257038.js.map",
+    "main.aa37e64f.js.map": "/static/js/main.aa37e64f.js.map",
     "787.aa53358f.chunk.js.map": "/static/js/787.aa53358f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.129af211.css",
-    "static/js/main.03257038.js"
+    "static/js/main.aa37e64f.js"
   ]
 }
